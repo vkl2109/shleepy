@@ -9,33 +9,36 @@
 </head>
 <body>
     <section class="homepage">
-        <h1 class="title">Shleepy</h1>
-        <h2 id="counter">0</h2>
-        <button id="increment" onclick = "increment()">ADD</button>
-        <button id="start" onclick = "start()">START</button>
-        <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep">
-        <div class="sheep_board">
-            <div class="sheep1">
-                <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep1">
+        <div class="top">
+            <h1 class="title">Shleepy</h1>
+            <h2 id="counter">0</h2>
+            <button id="increment" onclick = "increment()">COUNTER</button>
+            <button id="start" onclick = "start()">START</button></div>
+        <div class="middle">
+            <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep">
+            <div class="sheep_board">
+                <div class="sheep1">
+                    <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep1">
+                    <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep3">
+                    <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep4">
+                </div>
+                <div class="fence">
+                    <img src = "./images/fence.png" alt = "fence" id = "fence">
+                </div>
+                <div class="sheep2">
+                    <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep2">
+                </div>
             </div>
-            <div class="sheep2">
-                <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep1">
+            <div class="grass">
+                <img src = "./images/grass.png" alt = "grass" id = "grass1">
+                <img src = "./images/grass.png" alt = "grass" id = "grass2">
             </div>
-            <div class="fence">
-                <img src = "./images/fence.png" alt = "fence" id = "fence">
             </div>
-            <div class="sheep3">
-                <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep1">
-            </div>
-            <div class="sheep4">
-                <img src = "./images/sheep_nb.png" alt = "sheep" id = "sheep1">
-            </div>
+        <div class="ground">
+            <h1 class="question">Count the Sheep!!</h1>
+            <button id="right" onclick = "right()">0</button>
+            <button id="wrong" onclick = "wrong()">0</button>
         </div>
-        <div class="grass">
-            <img src = "./images/grass.png" alt = "grass" id = "grass1">
-            <img src = "./images/grass.png" alt = "grass" id = "grass2">
-        </div>
-        <div class="ground"></div>
     </section>
     <script src = "script.js"></script>
 </body>
